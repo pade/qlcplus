@@ -33,7 +33,9 @@
   #include "audiorenderer_alsa.h"
  #endif
 #else
- #include "audiorenderer_qt.h"
+ //#include "audiorenderer_qt.h"
+#include "audiorenderer_alsa.h"
+
 #endif
 
 AudioPluginCache::AudioPluginCache(QObject *parent)
@@ -48,7 +50,9 @@ AudioPluginCache::AudioPluginCache(QObject *parent)
     m_audioDevicesList = AudioRendererAlsa::getDevicesInfo();
  #endif
 #else
-    m_audioDevicesList = AudioRendererQt::getDevicesInfo();
+    //m_audioDevicesList = AudioRendererQt::getDevicesInfo();
+    m_audioDevicesList = AudioRendererAlsa::getDevicesInfo();
+
 #endif
 }
 

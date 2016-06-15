@@ -37,7 +37,9 @@
    #include "audiorenderer_alsa.h"
  #endif
 #else
- #include "audiorenderer_qt.h"
+ //#include "audiorenderer_qt.h"
+#include "audiorenderer_alsa.h"
+
 #endif
 
 #include "audio.h"
@@ -355,7 +357,11 @@ void Audio::preRun(MasterTimer* timer)
  #endif
         m_audio_out->moveToThread(QCoreApplication::instance()->thread());
 #else
-        m_audio_out = new AudioRendererQt(m_audioDevice);
+        m_audio_out = new AudioRendererAlsa(m_audioDevice);
+        m_audio_out->moveToThread(QCoreApplication::instance()->thread());
+
+
+        //m_audio_out = new AudioRendererQt(m_audioDevice);
 #endif
         m_audio_out->setDecoder(m_decoder);
         m_audio_out->initialize(ap.sampleRate(), ap.channels(), ap.format());
