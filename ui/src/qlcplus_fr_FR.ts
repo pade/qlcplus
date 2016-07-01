@@ -755,7 +755,7 @@ Voulez-vous vraiment les arrêter et basculer vers le mode Création ?</translat
     <message>
         <location filename="app.cpp" line="725"/>
         <source>Quit QLC+</source>
-        <translation type="unfinished"></translation>
+        <translation>Quitter QLC+</translation>
     </message>
     <message>
         <location filename="app.cpp" line="733"/>
@@ -3422,17 +3422,17 @@ Veuillez vous référer à la documentation du plugin.</translation>
     <message>
         <location filename="inputprofileeditor.ui" line="347"/>
         <source>Custom feedback</source>
-        <translation type="unfinished">Retour d&apos;info personnalisé</translation>
+        <translation>Retour d&apos;info personnalisé</translation>
     </message>
     <message>
         <location filename="inputprofileeditor.ui" line="359"/>
         <source>Upper value</source>
-        <translation type="unfinished">Valeur suppérieure</translation>
+        <translation>Valeur suppérieure</translation>
     </message>
     <message>
         <location filename="inputprofileeditor.ui" line="379"/>
         <source>Lower value</source>
-        <translation type="unfinished">Valeur inférieure</translation>
+        <translation>Valeur inférieure</translation>
     </message>
     <message>
         <location filename="inputprofileeditor.ui" line="67"/>
@@ -5537,12 +5537,12 @@ Durée : %3
     <message>
         <location filename="virtualconsole/vccuelist.cpp" line="210"/>
         <source>Play/Pause Cue list</source>
-        <translation type="unfinished"></translation>
+        <translation>Lecture/Pause Séquenceur</translation>
     </message>
     <message>
         <location filename="virtualconsole/vccuelist.cpp" line="219"/>
         <source>Stop Cue list</source>
-        <translation type="unfinished"></translation>
+        <translation>Stop Séquenceur</translation>
     </message>
     <message>
         <location filename="virtualconsole/vccuelist.cpp" line="228"/>
@@ -5687,12 +5687,12 @@ Durée : %3
     <message>
         <location filename="virtualconsole/vccuelistproperties.cpp" line="65"/>
         <source>Play/Pause control</source>
-        <translation type="unfinished"></translation>
+        <translation>Lecture/Pause</translation>
     </message>
     <message>
         <location filename="virtualconsole/vccuelistproperties.cpp" line="74"/>
         <source>Stop control</source>
-        <translation type="unfinished"></translation>
+        <translation>Stop</translation>
     </message>
     <message>
         <location filename="virtualconsole/vccuelistproperties.cpp" line="116"/>
